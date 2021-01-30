@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>EECS1012: My Learning Kite</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='myLearningKit.css'>
+  <script src='myLearningKit.js'></script>
+
+  <!-- codemirror
+
+  <script src="codemirror/lib/codemirror.js"></script>
+  <link rel="stylesheet" type="text/css" href="codemirror/lib/codemirror.css" />
+  <script src="codemirror/mode/javascript/javascript.js"></script>
+
+  -->
+  
+</head>
+
+<body>
+
+  <header>
+    <div class="topnav">
+      <a href="myLearningKit_home.html" id="name">Mohamed Meghawry</a>
+      <a href="myLearningKit.html" style="color: rgb(255, 164, 164);">EECS 1012</a>
+      <!--<a href="myLearningKit_Contact.html">Contact</a> -->
+      <a href="myLearningKit_about.html">About</a>
+    </div>
+
+    <h1> My Computational Thinking Kit:
+      <a href="myLearningKit.html">1</a>
+      <a href="myLearningKit_page2.html" style="color: rgb(233, 113, 15);">2</a>
+      <a href="myLearningKit_page3.html">3</a>
+      <a href="myLearningKit_page4.html">4</a>
+    </h1>
+
+    <nav>
+
+      <button onclick="p11()">11</button>
+      <button onclick="p12()">12</button>
+      <button onclick="p13()">13</button>
+      <button onclick="p14()">14</button>
+      <button onclick="p15()">15</button>
+      <button onclick="p16()">16</button>
+      <button onclick="p17()">17</button>
+      <button onclick="p18()">18</button>
+      <button onclick="p19()">19</button>
+      <button onclick="p20()">20</button>
+
+
+    </nav>
+
+  </header>
+
+  <div id="problem" class="problem">
+  </div>
+
+  <div class="column1 design">
+    <!-- in Ex3, add an attribute onclick to the following input-->
+    <input id="check1" type="checkbox" onclick="checkUncheck1()" /> Design
+
+    <!-- in Ex5, add attributes onclick and ondblclick to the following img-->
+    <img id="flowchart" src="null" alt="null" ondblclick="zoomIn()" onclick="zoomOut()" />
+  </div>
+
+  <div class="column2 jsSolution">
+    <input id="check2" type="checkbox" onclick="checkUncheck2()" /> JavaScript Solution
+    <br>
+    <img id="js" src="null" alt="null" ondblclick="zoomIn()" onclick="zoomOut()" />
+    <textarea id="editor" style="display: none"> </textarea>
+  </div>
+
+  <div class="column3 otherSolution">
+    <input id="check3" type="checkbox" onclick="checkUncheck1()" /> Another Solution
+    <img id="another" src="null" alt="null" ondblclick="zoomIn()" onclick="zoomOut()" />
+  </div>
+
+  <footer>(c) Author of this web page: <span>
+      <!--In Ex 1, replace your name here-->Mohamed Meghawry</span> </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 03.
+  Author: Amir H Chinaei
+  For: EECS 1012, York University, Lassonde School of Engineering -->
+<html lang="En">
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: My Learning Kit </title>
+
+  <!-- codemirror
+
+
+-->
+
+
+
+  <link rel="stylesheet" type="text/css" href="myLearningKit.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <script src="codemirror/lib/codemirror.js"></script>
+  <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+  <script src="codemirror/mode/javascript/javascript.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="codemirror/theme/defult.css" /> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+  <header>
+
+    <div class="topnav">
+      <a href="myLearningKit_home.html" id="name">Mohamed Meghawry</a>
+      <a href="myLearningKit.html" style="color: rgb(255, 164, 164);">EECS 1012</a>
+      <!--<a href="myLearningKit_Contact.html">Contact</a> -->
+      <a href="myLearningKit_about.html">About</a>
+    </div>
+
+    <h1> My Computational Thinking Kit:
+      <a href="myLearningKit.html" style="color: rgb(233, 113, 15);">1</a>
+      <a href="myLearningKit_page2.html">2</a>
+      <a href="myLearningKit_page3.html">3</a>
+      <a href="myLearningKit_page4.html">4</a>
+    </h1>
+
+
+
+    <nav>
+    </nav>
+
+  </header>
+
+
+  <div id="problem" class="problem">
+  </div>
+
+  <div class="column1 design">
+    <input id="check1" type="checkbox" onclick="checkUncheck1()" /> Design
+    <img id="flowchart" src="null" alt="null" ondblclick="zoomIn()" onclick="zoomOut()" />
+  </div>
+
+  <div class="column2 jsSolution">
+    <input id="check2" type="checkbox" onclick="checkUncheck2()" /> JavaScript Solution
+    <br>
+    <!--style="display: none-->
+    
+    <textarea id="editor" ></textarea>
+  </div>
+
+
+  <div class="column3 otherSolution">
+    <input id="check3" type="checkbox" onclick="checkUncheck3()" /> Another Solution
+    <textarea id="editor2"></textarea>
+    <!-- <img id="another" src="null" alt="null" ondblclick="zoomIn()" onclick="zoomOut()" /> -->
+
+  </div>
+
+  <footer>(c) Author of this web page: <span>
+      <!--In Ex 1, replace your name here-->Mohamed Meghawry</span> </footer>
+
+</body>
+
+<script src="myLearningKit.js"></script>
+
+</html>
