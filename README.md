@@ -1,5 +1,5 @@
 # computational-problem
 Project Display computational problems in flowchatrs and thier code.
 
-![GitHub Logo](/images/logo.png)
+![Example](/images/websit_page_2.png)
 Format: ![Alt Text](url)
