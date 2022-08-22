@@ -1,5 +1,5 @@
-# computational-problem
-Project Display computational problems in flowchatrs and thier code.
+# Computational-problem
+Project display computational problems in Flowchatrs and thier code.
 
 **Example of page one in Computational problems**
 
